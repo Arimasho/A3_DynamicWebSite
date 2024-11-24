@@ -1,0 +1,140 @@
+    @charset "UTF-8";
+/*  CSS Document  */
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: auto 1820px;
+}
+
+
+.site {
+    width: 1000px;
+    margin: 10px auto 10px auto;
+}
+
+header {
+    height: 265px;
+}
+
+.logobox {
+    margin: auto;
+    width: 10%;
+}
+
+nav {
+    height: 80px;
+    text-align: center;
+    transform: translateY(20px);
+}
+
+nav a {
+    font-size: 40px;
+    font-family: Arial;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-weight: 600;
+}
+
+.featuredsection {
+    height: 322px;
+}
+
+main {
+    height: 594px;
+    width: 596px;
+    background-color: #3b537b;
+}
+
+main h1{
+    color: white;
+    font-size: 36px;
+    font-family: ArialBlack,'Arial Black', sans-serif;
+    margin-left: 25px;
+    line-height: 20px;
+    margin-top: 35px;
+}
+
+main h2 {
+    color: white;
+    font-size: 20px;
+    font-family: ArialBlack,'Arial Black', sans-serif;
+    margin-left: 25px;
+    line-height: 20px;
+
+}
+
+.mainbottom {
+    transform: translateY(-205px);
+}
+
+.joe {
+    width: 150px;
+    height: 182px;
+    transform: translateY(-200px) translateX(410px);
+}
+
+.museum {
+    width: 132px;
+    margin-left: 35px;
+    transform: translateX(25px);
+}
+
+
+.mainbottom h2 {
+    margin-bottom: 30px;
+}
+
+
+main p{
+    color: white;
+    font-size: 20px;
+    font-family: AcuminPro, 'Acumin Pro',sans-serif;
+    margin-left: 25px;
+    line-height: 23px;
+    text-indent: 35px;
+}
+
+main a {
+    text-decoration: underline;
+    color: red;
+}
+
+main a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+aside {
+    text-align: center;
+    height: 594px;
+    width: 363.5px;
+    background-color: #3b537b;
+    margin-right: 40px;
+}
+
+aside h1 {
+    color: white;
+    font-size: 36px;
+    font-family: ArialBlack,'Arial Black', sans-serif;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+aside img {
+    margin: 2.5px;
+}
+
+
+footer {
+    height: 95px;
+    background-color: #3b537b;
+    text-align: center;
+    line-height: 95px;
+    color: white;
+    font-size: 14px;
+    font-family: arial;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
